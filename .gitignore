@@ -1,0 +1,63 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python, testes e ferramentas
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+
+# Variáveis, credenciais e chaves
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+secrets.toml
+.streamlit/secrets.toml
+credentials*.json
+service-account*.json
+
+# IDE, sistema e temporários
+.idea/
+.vscode/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+
+# Bancos locais e dados gerados
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+data/raw/**
+data/processed/**
+data/models/**
+*.parquet
+*.feather
+*.joblib
+*.pkl
+*.pickle
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Preserva apenas a estrutura vazia versionada
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/models/.gitkeep
